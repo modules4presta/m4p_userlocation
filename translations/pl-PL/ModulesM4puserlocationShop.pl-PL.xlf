@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="module" source-language="en-US" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="d4cc0ddc750fcfdcb710bd10ca3f8079">
+        <source>%country% — %rate% VAT</source>
+        <target>%country% — %rate% VAT</target>
+      </trans-unit>
+      <trans-unit id="841d2727aad1207b8b180700e2794feb">
+        <source>Prices for</source>
+        <target>Ceny dla</target>
+      </trans-unit>
+      <trans-unit id="f4ec5f57bd4d31b803312d873be40da9">
+        <source>Change</source>
+        <target>Zmień</target>
+      </trans-unit>
+      <trans-unit id="def615c835801585b3380e965a63a657">
+        <source>Where are you shopping from?</source>
+        <target>Skąd robisz zakupy?</target>
+      </trans-unit>
+      <trans-unit id="841a2d0affcadc76638aa17410eae54c">
+        <source>We use it to show prices with the tax that applies to you.</source>
+        <target>Dzięki temu pokażemy ceny z podatkiem, który Cię dotyczy.</target>
+      </trans-unit>
+      <trans-unit id="70d9be9b139893aa6c69b5e77e614311">
+        <source>Confirm</source>
+        <target>Potwierdź</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

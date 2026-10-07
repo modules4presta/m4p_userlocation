@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>m4p_userlocation</name>
+    <displayName><![CDATA[Wybór kraju]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Pozwala odwiedzającemu wskazać kraj, dzięki czemu ceny pokazują się z właściwym podatkiem jeszcze przed podaniem adresu.]]></description>
+    <author><![CDATA[Modules4Presta]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <confirmUninstall><![CDATA[Usunąć moduł razem z ustawieniami? Adresy klientów pozostaną bez zmian.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+    <limited_countries></limited_countries>
+</module>

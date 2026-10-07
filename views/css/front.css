@@ -1,0 +1,133 @@
+/**
+ * m4p_userlocation
+ *
+ * @author    Modules4Presta <contact@modules4presta.io>
+ * @copyright 2026 Nice Code sp. z o.o. (Modules4Presta)
+ * @license   https://opensource.org/licenses/MIT MIT License
+ */
+
+.m4p-userlocation {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.m4p-userlocation__pill {
+	align-items: stretch;
+	background: rgba(13, 24, 61, .04);
+	border: 1px solid rgba(13, 24, 61, .12);
+	border-radius: 999px;
+	display: inline-flex;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.m4p-userlocation__pill:focus-within {
+	border-color: rgba(13, 24, 61, .4);
+}
+
+.m4p-userlocation__caption {
+	align-items: center;
+	border-right: 1px solid rgba(13, 24, 61, .12);
+	display: flex;
+	font-size: .75rem;
+	font-weight: 600;
+	letter-spacing: .02em;
+	margin: 0;
+	opacity: .65;
+	padding: 0 12px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/* The chevron is drawn here because a select with its own appearance cannot be
+   made to match the pill across browsers. */
+.m4p-userlocation__select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%230d183d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 12px center;
+	border: 0;
+	border-radius: 0;
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+	line-height: 1.2;
+	max-width: 100%;
+	padding: 8px 34px 8px 12px;
+	text-overflow: ellipsis;
+}
+
+.m4p-userlocation__select:focus {
+	outline: 0;
+}
+
+.m4p-userlocation__apply {
+	background: rgba(13, 24, 61, .08);
+	border: 0;
+	border-left: 1px solid rgba(13, 24, 61, .12);
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+	font-size: .8125rem;
+	padding: 0 14px;
+	white-space: nowrap;
+}
+
+.m4p-userlocation__apply:hover {
+	background: rgba(13, 24, 61, .16);
+}
+
+.m4p-userlocation__overlay {
+	align-items: center;
+	background: rgba(0, 0, 0, .6);
+	display: flex;
+	inset: 0;
+	justify-content: center;
+	padding: 16px;
+	position: fixed;
+	z-index: 1060;
+}
+
+.m4p-userlocation__dialog {
+	background: #fff;
+	border-radius: 12px;
+	max-width: 420px;
+	padding: 28px;
+	width: 100%;
+}
+
+.m4p-userlocation__title {
+	margin: 0 0 8px;
+}
+
+.m4p-userlocation__lead {
+	margin: 0 0 20px;
+	opacity: .75;
+}
+
+.m4p-userlocation__dialog-label {
+	display: block;
+	font-size: .75rem;
+	font-weight: 600;
+	letter-spacing: .02em;
+	margin-bottom: 6px;
+	opacity: .65;
+	text-transform: uppercase;
+}
+
+.m4p-userlocation__confirm {
+	margin-top: 20px;
+	width: 100%;
+}
+
+@media (max-width: 575px) {
+	.m4p-userlocation,
+	.m4p-userlocation__pill {
+		width: 100%;
+	}
+
+	.m4p-userlocation__select {
+		flex: 1 1 auto;
+		min-width: 0;
+	}
+}

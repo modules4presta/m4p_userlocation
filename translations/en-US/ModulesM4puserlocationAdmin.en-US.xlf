@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="module" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="09ddba3c586545f4c6f2891ae87790b6">
+        <source>Country selector</source>
+        <target>Country selector</target>
+      </trans-unit>
+      <trans-unit id="5f126824086bf07b40742f4c8b8c4620">
+        <source>Lets visitors pick their country, so prices are shown with that country's tax before they have an address.</source>
+        <target>Lets visitors pick their country, so prices are shown with that country's tax before they have an address.</target>
+      </trans-unit>
+      <trans-unit id="fe1f49acc535518420c4cebfbcbcd0ee">
+        <source>Remove the module and its settings? Customer addresses are not touched.</source>
+        <target>Remove the module and its settings? Customer addresses are not touched.</target>
+      </trans-unit>
+      <trans-unit id="42fac6b80c7fe76065ec42e36b550411">
+        <source>The selector lists the countries enabled under International &gt; Locations &gt; Countries, and only one is enabled right now, so visitors have nothing to choose from.</source>
+        <target>The selector lists the countries enabled under International &gt; Locations &gt; Countries, and only one is enabled right now, so visitors have nothing to choose from.</target>
+      </trans-unit>
+      <trans-unit id="4a2c05cbe345308534f4a0441acc57c5">
+        <source>Visitors will be able to pick from: %countries%.</source>
+        <target>Visitors will be able to pick from: %countries%.</target>
+      </trans-unit>
+      <trans-unit id="20eed26d7ce6049be979fee1725d8c38">
+        <source>The choice sets the country PrestaShop uses to work out tax, so prices follow your tax rules without this module calculating anything itself.</source>
+        <target>The choice sets the country PrestaShop uses to work out tax, so prices follow your tax rules without this module calculating anything itself.</target>
+      </trans-unit>
+      <trans-unit id="f26da9f4b8a5d0737ab665ae8131a889">
+        <source>Once a customer has an address on their cart, that address wins and the selector no longer affects prices.</source>
+        <target>Once a customer has an address on their cart, that address wins and the selector no longer affects prices.</target>
+      </trans-unit>
+      <trans-unit id="a2386622e1d4511cea5ab727a0906439">
+        <source>These customer groups are set to show prices without tax: %groups%. Their members will not see prices change when they pick a country, because there is no tax in the figure to change.</source>
+        <target>These customer groups are set to show prices without tax: %groups%. Their members will not see prices change when they pick a country, because there is no tax in the figure to change.</target>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c">
+        <source>Settings</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="78f612fdb7715ebffcf593f04f0319b6">
+        <source>Show the country selector</source>
+        <target>Show the country selector</target>
+      </trans-unit>
+      <trans-unit id="07146e1348fda2847cbbb305ef4cfa72">
+        <source>Puts the selector in the shop header.</source>
+        <target>Puts the selector in the shop header.</target>
+      </trans-unit>
+      <trans-unit id="01d4dc82bd4945f601126ba5e78eb7b2">
+        <source>Where to show it</source>
+        <target>Where to show it</target>
+      </trans-unit>
+      <trans-unit id="cb012bf09a68589e9e9b18f34c9f35b1">
+        <source>Some themes render the navigation hooks in a hidden container, and the selector is then in the page but invisible. Switch to the top of the header if you see nothing.</source>
+        <target>Some themes render the navigation hooks in a hidden container, and the selector is then in the page but invisible. Switch to the top of the header if you see nothing.</target>
+      </trans-unit>
+      <trans-unit id="af7ad6da2d89cfe586cac0c7942b34f7">
+        <source>Header navigation (displayNav2)</source>
+        <target>Header navigation (displayNav2)</target>
+      </trans-unit>
+      <trans-unit id="adbe8bcbfd3da63670cbc36eed2ea77f">
+        <source>Top of the header (displayBanner)</source>
+        <target>Top of the header (displayBanner)</target>
+      </trans-unit>
+      <trans-unit id="7c65cfb2d4bcf2bff6d5ef0570a032bf">
+        <source>Ask on the first visit</source>
+        <target>Ask on the first visit</target>
+      </trans-unit>
+      <trans-unit id="be8e64d53a00c7b900dd766e98dca1c5">
+        <source>Shows a dialog until the visitor picks a country. With this off they keep the shop default and can still change it in the header.</source>
+        <target>Shows a dialog until the visitor picks a country. With this off they keep the shop default and can still change it in the header.</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="630f6dc397fe74e52d5189e2c80f282b">
+        <source>Back to list</source>
+        <target>Back to list</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
